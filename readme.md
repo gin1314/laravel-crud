@@ -48,6 +48,18 @@ PUSHER_KEY=
 PUSHER_SECRET=
 ```
 
+Then make the sqlite database file
+
+```bash
+touch database/database.sqlite
+```
+
+Run the migration
+
+```bash
+php artisan migrate
+```
+
 ## Running Development Server
 
 ```bash
